@@ -1,0 +1,41 @@
+Direct Market Access (DMA) via Colocation using the [B3 Binary UMDF](https://www.b3.com.br/en_us/solutions/platforms/puma-trading-system/for-developers-and-vendors/binary-umdf/) is the highest tier of connectivity for the Brazilian exchange. It is designed for low-latency, high-performance trading by placing your hardware inside the [B3 Data Center](https://www.b3.com.br/en_us/solutions/hosting-co-location/data-center/data-center/) alongside the PUMA Trading System. [1, 2, 3] 
+## Technical Details of B3 Binary UMDF
+
+* Protocol: Uses Simple Binary Encoding (SBE), a fixed-position protocol that allows direct data access without the need for sequential field processing.
+* Transport: Delivered via UDP Multicast, providing the fastest possible dissemination for Equities, Derivatives (including Mini Dólar), and FX market segments.
+* Order Book Architecture: Supports Market By Order (MBO), which provides full depth of the order book, allowing you to see every individual order rather than just aggregated price levels.
+* Latency: Offers significantly lower latency than the legacy FIX/FAST format by reducing the time required for encoding and decoding. [4, 5, 6, 7, 8, 9, 10] 
+
+## Colocation Environment
+
+* Facility: Located in a Tier-3 certified data center in São Paulo, providing redundant power and cooling systems.
+* Hardware Hosting: B3 provides physical space and racks where customers can install their own servers.
+* Cross-Connects: Low-latency physical cables connect your equipment directly to the exchange’s matching engines.
+* Support: Managed by technical teams available 24/7 for incident resolution and equipment management. [1, 3, 9, 11, 12] 
+
+## Onboarding and Costs
+
+* Contracting: Requires a relationship with a clearing member (broker) who "sponsors" your access.
+* Certification: All software must be certified by the B3 Certification and Testing Center before it can connect to the live production environment.
+* Estimated Fees:
+* Monthly Colocation Fees: Can range significantly depending on rack space and power requirements.
+   * Connectivity Fees: Monthly costs for market data and order entry cross-connects are typically several hundred dollars each (e.g., approximately $575 for certain high-speed cross-connects).
+   * Activation Fees: Initial setup fees are also required for most cross-connect services. [2, 13, 14, 15] 
+
+Would you like more information on the certification process or how to find a sponsored access broker in Brazil?
+
+[1] [https://www.b3.com.br](https://www.b3.com.br/data/files/E3/85/5C/FF/9423861012FFCD76AC094EA8/Co-location-Commercial-Policy.pdf)
+[2] [https://www.b3.com.br](https://www.b3.com.br/en_us/non-resident-investor/how-to-get-connected-bm-fbovespa/direct-market-access-dma.htm#:~:text=B3%20has%20been%20increasingly%20investing%20in%20electronic,including%20the%20electronic%20trading%20system%C2%B4s%20order%20book.)
+[3] [https://www.b3.com.br](https://www.b3.com.br/en_us/solutions/hosting-co-location/data-center/data-center/)
+[4] [https://www.onixs.biz](https://www.onixs.biz/b3-binary-umdf-sbe-feed-market-data-handler.html)
+[5] [https://www.onixs.biz](https://www.onixs.biz/b3-binary-umdf-sbe-feed-market-data-handler.html)
+[6] [https://www.onixs.biz](https://www.onixs.biz/insights/new-b3-binary-umdf-market-data-feed-and-b3-binary-order-entry-platform-interfaces.-what-you-need-to-know#:~:text=In%20addition%20to%20the%20B3%20Unified%20Market,due%20to%20reduced%20encoding%20and%20decoding%20latency.)
+[7] [https://www.onixs.biz](https://www.onixs.biz/insights/new-b3-binary-umdf-market-data-feed-and-b3-binary-order-entry-platform-interfaces.-what-you-need-to-know#:~:text=In%20addition%20to%20the%20B3%20Unified%20Market,due%20to%20reduced%20encoding%20and%20decoding%20latency.)
+[8] [https://www.onixs.biz](https://www.onixs.biz/b3-binary-umdf-sbe-feed-market-data-handler.html)
+[9] [https://www.onixs.biz](https://www.onixs.biz/insights/the-rise-of-puma-b3-how-new-developments-are-reshaping-trading-in-brazil)
+[10] [https://www.b3.com.br](https://www.b3.com.br/data/files/A3/F1/3A/ED/A46A1810C493CD08AC094EA8/Binary%20UMDF%20-%20Message%20Specification%20Guidelines%20-%20v.1.4.1.pdf)
+[11] [https://www.b3.com.br](https://www.b3.com.br/data/files/29/95/4C/39/1B4C96103EA87B96AC094EA8/Co-location-Commercial-Policy.pdf)
+[12] [https://www.b3.com.br](https://www.b3.com.br/data/files/DC/03/34/76/23CB7610F157B776AC094EA8/Co-location-Commercial-Policy.pdf)
+[13] [https://www.b3.com.br](https://www.b3.com.br/data/files/3F/54/06/AF/930D69106B8BCB69AC094EA8/BinaryUMDF-MessageSpecificationGuidelines-v.2.1.0.1-enUS.pdf)
+[14] [https://www.b3.com.br](https://www.b3.com.br/en_us/non-resident-investor/how-to-get-connected-bm-fbovespa/direct-market-access-dma.htm)
+[15] [https://www.b3.com.br](https://www.b3.com.br/data/files/59/E6/09/FA/22DDB9109B5E99B9AC094EA8/DOLAR_Price_table.pdf)
